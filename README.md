@@ -4,7 +4,7 @@
 
 ## Demo
 
-[Deployed on Netlify (front-end) & Heroku (back-end)](https://reddish.netlify.app)
+[Deployed on Render (both front-end and back-end)](https://reddish-cd0l.onrender.com/)
 
 ## Built using
 
@@ -53,17 +53,17 @@
 
 #### Desktop/Tablet
 
-![Desktop-home](https://github.com/amand33p/reddish-mern/blob/master/screenshots/desktop-home.png)
-![Desktop-2](https://github.com/amand33p/reddish-mern/blob/master/screenshots/desktop-2.png)
-![Desktop-3](https://github.com/amand33p/reddish-mern/blob/master/screenshots/desktop-3.png)
+![Desktop-home](https://github.com/manish6263/Reddish/blob/master/screenshots/desktop-home.png)
+![Desktop-2](https://github.com/manish6263/Reddish/blob/master/screenshots/desktop-2.png)
+![Desktop-3](https://github.com/manish6263/Reddish/blob/master/screenshots/desktop-3.png)
 
 #### Mobile
 
-![Mobile-home](https://github.com/amand33p/reddish-mern/blob/master/screenshots/mobile-home.png)
-![Mobile-2](https://github.com/amand33p/reddish-mern/blob/master/screenshots/mobile-2.png)
-![Mobile-3](https://github.com/amand33p/reddish-mern/blob/master/screenshots/mobile-3.png)
-![Mobile-4](https://github.com/amand33p/reddish-mern/blob/master/screenshots/mobile-4.png)
-![Mobile-5](https://github.com/amand33p/reddish-mern/blob/master/screenshots/mobile-5.png)
+![Mobile-home](https://github.com/manish6263/Reddish/blob/master/screenshots/mobile-home.png)
+![Mobile-2](https://github.com/manish6263/Reddish/blob/master/screenshots/mobile-2.png)
+![Mobile-3](https://github.com/manish6263/Reddish/blob/master/screenshots/mobile-3.png)
+![Mobile-4](https://github.com/manish6263/Reddish/blob/master/screenshots/mobile-4.png)
+![Mobile-5](https://github.com/manish6263/Reddish/blob/master/screenshots/mobile-5.png)
 
 ## Usage
 
@@ -78,17 +78,13 @@ Create .env file in server directory and add the following:
 
 ```
 MONGODB_URI = "Your Mongo URI"
-PORT = 3005
+PORT = 5000
 SECRET = "Your JWT secret"
 CLOUDINARY_NAME = "From your cloudinary dashboard"
 CLOUDINARY_API_KEY = "From your cloudinary dashboard"
 CLOUDINARY_API_SECRET = "From your cloudinary dashboard"
 UPLOAD_PRESET = "Folder/preset name from your cloudinary account" (OPTIONAL)
 ```
-
-#### Client:
-
-Open client/src/backendUrl.js & change "backend" variable to `"http://localhost:3005"`
 
 ```
 cd client

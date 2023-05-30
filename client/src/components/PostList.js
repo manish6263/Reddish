@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   fetchPosts,
@@ -25,10 +25,6 @@ const PostList = () => {
   const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const classes = usePostListStyles();
-
-  useEffect(() => {
-    dispatch(fetchPosts(10));
-  }, [dispatch]);
 
   const handleTabChange = async (e, newValue) => {
     try {
